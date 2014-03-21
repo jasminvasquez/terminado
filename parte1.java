@@ -4,20 +4,20 @@ import java.util.Scanner;
 public class parte1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		 Scanner sc=new Scanner(System.in);  
+		
+	  Scanner deysi=new Scanner(System.in);  
 	        System.out.println("Ingresa un numero ");  
-	        int A = sc.nextInt();  
+	        int num1 = deysi.nextInt();  
 	        System.out.println("Ingresa otro numero ");  
-	        int B = sc.nextInt();  
+	        int num2 = deysi.nextInt();  
 
-	        if(A == B ){  
-	        System.out.println("verdadero" );//son iguales  
+	        if(num1 == num2 ){  
+	        System.out.println("verdadero son iguales" );//son iguales  
 	        }else{  
-	            if(A!=B ){  	 
-	            System.out.println("falso" );  //son diferentes
+	            if(num1!=num2 ){  	 
+	            System.out.println("falso no son iguales" );  //son diferentes
 	            }else{  
-	            
+
 	            }  
 	        }  
 	     }  
